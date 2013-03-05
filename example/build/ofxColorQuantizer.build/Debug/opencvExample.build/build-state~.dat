@@ -1,2565 +1,0 @@
-TopencvExample
-v7
-r0
-t383798468.923955
-cCheck dependencies
-cProcessInfoPlistFile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
-cProcessPCH++ /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h.gch /Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/main.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/testApp.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvColorImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvFloatImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvShortImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvContourFinder.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvHaarFinder.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxColorQuantizer.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cPhaseScriptExecution "Run Script" /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-cPBXCp bin/opencvExampleDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d.hpp
-c0000000050A4760600000000000092FE
-t1352955398
-s37630
-i"opencv2/core/core.hpp"
-i"opencv2/features2d/features2d.hpp"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp
-c0000000050A476060000000000029BC7
-t1352955398
-s170951
-i"opencv2/core/types_c.h"
-i"opencv2/core/version.hpp"
-i<limits.h>
-i<algorithm>
-i<cmath>
-i<cstddef>
-i<complex>
-i<map>
-i<new>
-i<string>
-i<vector>
-i"opencv2/core/operations.hpp"
-i"opencv2/core/mat.hpp"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h
-c0000000050A4760600000000000132E4
-t1352955398
-s78564
-i"opencv2/core/types_c.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/eigen.hpp
-c0000000050A47606000000000000193E
-t1352955398
-s6462
-i"cxcore.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp
-c0000000050A476060000000000007CBD
-t1352955398
-s31933
-i<vector>
-i<windows.h>
-i<pthread.h>
-i<sys/mman.h>
-i"ipp.h"
-i"emmintrin.h"
-i"pmmintrin.h"
-i"arm_neon.h"
-i"tbb/tbb_stddef.h"
-i"tbb/tbb.h"
-i"tbb/task.h"
-i<Eigen/Core>
-i"opencv2/core/eigen.hpp"
-i"threading_framework.hpp"
-i<malloc.h>
-i<alloca.h>
-i<stdlib.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp
-c0000000050A476060000000000013554
-t1352955398
-s79188
-i<limits.h>
-i<string.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp
-c0000000050A47606000000000001D32A
-t1352955398
-s119594
-i<string.h>
-i<limits.h>
-i<ext/atomicity.h>
-i<bits/atomicity.h>
-i<intrin.h>
-i<limits>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h
-c0000000050A47606000000000000DE5E
-t1352955398
-s56926
-i<assert.h>
-i<stdlib.h>
-i<string.h>
-i<float.h>
-i<stdint.h>
-i<intrin.h>
-i<emmintrin.h>
-i<fastmath.h>
-i<math.h>
-i<ipl.h>
-i<ipl/ipl.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp
-c0000000050A4760600000000000009EA
-t1352955398
-s2538
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp
-c0000000050A47606000000000001E0FD
-t1352955398
-s123133
-i"opencv2/core/core.hpp"
-i"opencv2/flann/miniflann.hpp"
-i<limits>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h
-c0000000050A476060000000000001746
-t1352955398
-s5958
-i"general.h"
-i"nn_index.h"
-i"kdtree_index.h"
-i"kdtree_single_index.h"
-i"kmeans_index.h"
-i"composite_index.h"
-i"linear_index.h"
-i"hierarchical_clustering_index.h"
-i"lsh_index.h"
-i"autotuned_index.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h
-c0000000050A4760600000000000017B7
-t1352955398
-s6071
-i<stdlib.h>
-i<stdio.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h
-c0000000050A476060000000000001BA6
-t1352955398
-s7078
-i<stdexcept>
-i<ostream>
-i<typeinfo>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h
-c0000000050A47606000000000000507F
-t1352955398
-s20607
-i"general.h"
-i"nn_index.h"
-i"ground_truth.h"
-i"index_testing.h"
-i"sampling.h"
-i"kdtree_index.h"
-i"kdtree_single_index.h"
-i"kmeans_index.h"
-i"composite_index.h"
-i"linear_index.h"
-i"logger.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h
-c0000000050A476060000000000001764
-t1352955398
-s5988
-i"general.h"
-i"nn_index.h"
-i"kdtree_index.h"
-i"kmeans_index.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h
-c0000000050A4760600000000000006FD
-t1352955398
-s1789
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h
-c0000000050A476060000000000001207
-t1352955398
-s4615
-i"config.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h
-c0000000050A4760600000000000068FA
-t1352955398
-s26874
-i<cmath>
-i<cstdlib>
-i<string.h>
-i<stdint.h>
-i"defines.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h
-c0000000050A476060000000000001190
-t1352955398
-s4496
-i<boost/dynamic_bitset.hpp>
-i<limits.h>
-i"dist.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp
-c0000000050A476060000000000004414
-t1352955398
-s17428
-i"opencv2/core/types_c.h"
-i"opencv2/core/core.hpp"
-i"opencv2/flann/flann_base.hpp"
-i"opencv2/flann/miniflann.hpp"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp
-c0000000050A47606000000000000229D
-t1352955398
-s8861
-i<vector>
-i<string>
-i<cassert>
-i<cstdio>
-i"general.h"
-i"matrix.h"
-i"params.h"
-i"saving.h"
-i"all_indices.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h
-c0000000050A4760600000000000007F4
-t1352955398
-s2036
-i"defines.h"
-i<stdexcept>
-i<cassert>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h
-c0000000050A476060000000000000D43
-t1352955398
-s3395
-i"dist.h"
-i"matrix.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h
-c0000000050A476060000000000001015
-t1352955398
-s4117
-i<algorithm>
-i<vector>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h
-c0000000050A4760600000000000053E8
-t1352955398
-s21480
-i<algorithm>
-i<string>
-i<map>
-i<cassert>
-i<limits>
-i<cmath>
-i"general.h"
-i"nn_index.h"
-i"dist.h"
-i"matrix.h"
-i"result_set.h"
-i"heap.h"
-i"allocator.h"
-i"random.h"
-i"saving.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h
-c0000000050A476060000000000002A58
-t1352955398
-s10840
-i<cstring>
-i<cassert>
-i<cmath>
-i"matrix.h"
-i"nn_index.h"
-i"result_set.h"
-i"logger.h"
-i"timer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h
-c0000000050A476060000000000004CE6
-t1352955398
-s19686
-i<algorithm>
-i<map>
-i<cassert>
-i<cstring>
-i"general.h"
-i"nn_index.h"
-i"dynamic_bitset.h"
-i"matrix.h"
-i"result_set.h"
-i"heap.h"
-i"allocator.h"
-i"random.h"
-i"saving.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h
-c0000000050A476060000000000004E8B
-t1352955398
-s20107
-i<algorithm>
-i<map>
-i<cassert>
-i<cstring>
-i"general.h"
-i"nn_index.h"
-i"matrix.h"
-i"result_set.h"
-i"heap.h"
-i"allocator.h"
-i"random.h"
-i"saving.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h
-c0000000050A4760600000000000086F9
-t1352955398
-s34553
-i<algorithm>
-i<string>
-i<map>
-i<cassert>
-i<limits>
-i<cmath>
-i"general.h"
-i"nn_index.h"
-i"dist.h"
-i"matrix.h"
-i"result_set.h"
-i"heap.h"
-i"allocator.h"
-i"random.h"
-i"saving.h"
-i"logger.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h
-c0000000050A476060000000000000E70
-t1352955398
-s3696
-i"general.h"
-i"nn_index.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h
-c0000000050A476060000000000000E70
-t1352955398
-s3696
-i<stdio.h>
-i<stdarg.h>
-i"defines.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h
-c0000000050A476060000000000003B9C
-t1352955398
-s15260
-i<algorithm>
-i<cassert>
-i<cstring>
-i<map>
-i<vector>
-i"general.h"
-i"nn_index.h"
-i"matrix.h"
-i"result_set.h"
-i"heap.h"
-i"lsh_table.h"
-i"allocator.h"
-i"random.h"
-i"saving.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h
-c0000000050A4760600000000000042D1
-t1352955398
-s17105
-i<algorithm>
-i<iostream>
-i<iomanip>
-i<limits.h>
-i<unordered_map>
-i<map>
-i<math.h>
-i<stddef.h>
-i"dynamic_bitset.h"
-i"matrix.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h
-c0000000050A476060000000000000CD6
-t1352955398
-s3286
-i<stdio.h>
-i"general.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp
-c0000000050A4760600000000000016D8
-t1352955398
-s5848
-i"opencv2/core/core.hpp"
-i"opencv2/flann/defines.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h
-c0000000050A47606000000000000178E
-t1352955398
-s6030
-i<string>
-i"general.h"
-i"matrix.h"
-i"result_set.h"
-i"params.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h
-c0000000050A476060000000000000C7B
-t1352955398
-s3195
-i"any.h"
-i"general.h"
-i<iostream>
-i<map>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h
-c0000000050A476060000000000000E59
-t1352955398
-s3673
-i<algorithm>
-i<cstdlib>
-i<vector>
-i"general.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h
-c0000000050A476060000000000003A4E
-t1352955398
-s14926
-i<algorithm>
-i<cstring>
-i<iostream>
-i<limits>
-i<set>
-i<vector>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h
-c0000000050A476060000000000000B15
-t1352955398
-s2837
-i"matrix.h"
-i"random.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h
-c0000000050A476060000000000001692
-t1352955398
-s5778
-i<cstring>
-i<vector>
-i"general.h"
-i"nn_index.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h
-c0000000050A47606000000000000097B
-t1352955398
-s2427
-i<time.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp
-c0000000050A47606000000000000C2B0
-t1352955398
-s49840
-i"opencv2/core/core.hpp"
-i"opencv2/imgproc/types_c.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h
-c0000000050A476060000000000009012
-t1352955398
-s36882
-i"opencv2/core/core_c.h"
-i"opencv2/imgproc/types_c.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h
-c0000000050A476060000000000003428
-t1352955398
-s13352
-i"opencv2/core/core_c.h"
-i"opencv2/imgproc/types_c.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/compat.hpp
-c0000000050A4760600000000000064DF
-t1352955398
-s25823
-i"opencv2/core/core_c.h"
-i"opencv2/imgproc/types_c.h"
-i<math.h>
-i<string.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp
-c0000000050A476060000000000005C6F
-t1352955398
-s23663
-i"opencv2/core/core.hpp"
-i"opencv2/features2d/features2d.hpp"
-i<deque>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp
-c0000000050A4760600000000000042DE
-t1352955398
-s17118
-i"opencv2/core/core.hpp"
-i"opencv2/imgproc/imgproc_c.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvBlob.h
-c0000000050A47612000000000000054A
-t1352955410
-s1354
-i"ofxCvConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvColorImage.h
-c0000000050A476120000000000001ABA
-t1352955410
-s6842
-i"ofxCvImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvConstants.h
-c0000000050A47612000000000000010F
-t1352955410
-s271
-i"cv.h"
-i<vector>
-i"ofMain.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvContourFinder.h
-c0000000050A476120000000000000836
-t1352955410
-s2102
-i"ofxCvConstants.h"
-i"ofxCvBlob.h"
-i"ofxCvGrayscaleImage.h"
-i<algorithm>
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvFloatImage.h
-c0000000050A476120000000000001DEB
-t1352955410
-s7659
-i"ofxCvImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h
-c0000000050A476120000000000001C83
-t1352955410
-s7299
-i"ofxCvImage.h"
-i"ofxCvBlob.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvHaarFinder.h
-c0000000050A476120000000000000693
-t1352955410
-s1683
-i"ofMain.h"
-i"ofxOpenCv.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvImage.h
-c0000000050A476120000000000001A99
-t1352955410
-s6809
-i"ofxCvConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxCvShortImage.h
-c0000000050A4761200000000000018E1
-t1352955410
-s6369
-i"ofxCvImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/addons/ofxOpenCv/src/ofxOpenCv.h
-c0000000050A47612000000000000017E
-t1352955410
-s382
-i"ofxCvConstants.h"
-i"ofxCvImage.h"
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvShortImage.h"
-i"ofxCvContourFinder.h"
-i"ofxCvHaarFinder.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cv.h
-c0000000050A476060000000000000D55
-t1352955398
-s3413
-i"opencv2/core/core_c.h"
-i"opencv2/core/core.hpp"
-i"opencv2/imgproc/imgproc_c.h"
-i"opencv2/imgproc/imgproc.hpp"
-i"opencv2/video/tracking.hpp"
-i"opencv2/features2d/features2d.hpp"
-i"opencv2/flann/flann.hpp"
-i"opencv2/calib3d/calib3d.hpp"
-i"opencv2/objdetect/objdetect.hpp"
-i"opencv2/legacy/compat.hpp"
-i"opencv2/core/internal.hpp"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.h
-c0000000050A4760600000000000009D6
-t1352955398
-s2518
-i"opencv2/core/core_c.h"
-i"opencv2/core/core.hpp"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp
-c0000000050A476120000000000003B0B
-t1352955410
-s15115
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvShortImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp
-c0000000050A476120000000000001B48
-t1352955410
-s6984
-i"ofxCvContourFinder.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp
-c0000000050A47612000000000000506A
-t1352955410
-s20586
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvShortImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
-c0000000050A4761200000000000036CC
-t1352955410
-s14028
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvShortImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp
-c0000000050A476120000000000001879
-t1352955410
-s6265
-i"ofxCvHaarFinder.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp
-c0000000050A476120000000000006AFC
-t1352955410
-s27388
-i"ofxCvImage.h"
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvBlob.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp
-c0000000050A476120000000000003938
-t1352955410
-s14648
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvShortImage.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxOpenCv.h
-c0000000050A47612000000000000017E
-t1352955410
-s382
-i"ofxCvConstants.h"
-i"ofxCvImage.h"
-i"ofxCvGrayscaleImage.h"
-i"ofxCvColorImage.h"
-i"ofxCvFloatImage.h"
-i"ofxCvShortImage.h"
-i"ofxCvContourFinder.h"
-i"ofxCvHaarFinder.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx/GLUT.framework
-c0000000050A4762000000000000000CC
-t1352955424
-s204
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx/GLUT.framework/GLUT
-c0000000050A476200000000000093570
-t1352955424
-s603504
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp
-c000000005130143800000000000000BB
-t1362105400
-s187
-i"ofxColorQuantizer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h
-c00000000513014AF00000000000000E8
-t1362105519
-s232
-i"ofMain.h"
-i"ofxOpenCv.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app
-t2
-s0
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/Info.plist
-t1362105658
-s622
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/opencvExampleDebug
-t2
-s0
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/PkgInfo
-t1362105658
-s8
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/opencvExampleDebug.app/Contents/Frameworks/GLUT.framework
-t1362105668
-s204
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxColorQuantizer.o
-t2
-s0
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvColorImage.o
-t1362105666
-s236608
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvContourFinder.o
-t1362105666
-s365468
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvFloatImage.o
-t1362105666
-s247424
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvGrayscaleImage.o
-t1362105666
-s234916
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvHaarFinder.o
-t1362105666
-s382264
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvImage.o
-t1362105668
-s264672
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvShortImage.o
-t1362105666
-s234984
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/opencvExampleDebug.LinkFileList
-c000000005130153A00000000000006C7
-t1362105658
-s1735
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/testApp.o
-t2
-s0
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-c000000005130153A0000000000000114
-t1362105658
-s276
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp
-c0000000050A47614000000000000019E
-t1352955412
-s414
-i"ofMain.h"
-i"testApp.h"
-i"ofAppGlutWindow.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp
-c00000000513015380000000000000CB4
-t1362105656
-s3252
-i"testApp.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h
-c00000000513014D200000000000002D2
-t1362105554
-s722
-i"ofMain.h"
-i"ofxOpenCv.h"
-i"ofxColorQuantizer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/src/ofxColorQuantizer.h
-c00000000513014AF00000000000000E8
-t1362105519
-s232
-i"ofMain.h"
-i"ofxOpenCv.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/cairo/include/cairo/cairo-deprecated.h
-c0000000050A4761E00000000000021FA
-t1352955422
-s8698
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/cairo/include/cairo/cairo-features.h
-c0000000050A4761E000000000000031D
-t1352955422
-s797
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/cairo/include/cairo/cairo-pdf.h
-c0000000050A4761E0000000000000C24
-t1352955422
-s3108
-i"cairo.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/cairo/include/cairo/cairo-svg.h
-c0000000050A4761E0000000000000ADD
-t1352955422
-s2781
-i"cairo.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/cairo/include/cairo/cairo-version.h
-c0000000050A4761E0000000000000094
-t1352955422
-s148
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/cairo/include/cairo/cairo.h
-c0000000050A4761E0000000000016BCE
-t1352955422
-s93134
-i"cairo-version.h"
-i"cairo-features.h"
-i"cairo-deprecated.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/fmodex/include/fmod.h
-c0000000050A4761E0000000000028E68
-t1352955422
-s167528
-i"fmod_codec.h"
-i"fmod_dsp.h"
-i"fmod_memoryinfo.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/fmodex/include/fmod_codec.h
-c0000000050A4761E000000000000334A
-t1352955422
-s13130
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/fmodex/include/fmod_dsp.h
-c0000000050A4761E000000000000892F
-t1352955422
-s35119
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/fmodex/include/fmod_errors.h
-c0000000050A4761E0000000000003408
-t1352955422
-s13320
-i"fmod.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/fmodex/include/fmod_memoryinfo.h
-c0000000050A4761E0000000000003C95
-t1352955422
-s15509
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/glew/include/GL/glew.h
-c0000000050A4762000000000000C1916
-t1352955424
-s792854
-i<stddef.h>
-i<inttypes.h>
-i<stdint.h>
-i<inttypes.h>
-i<OpenGL/glu.h>
-i<GL/glu.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/3d/of3dUtils.h
-c0000000050A4762000000000000001B2
-t1352955424
-s434
-i"ofVectorMath.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/3d/ofCamera.h
-c0000000050A4762000000000000007E7
-t1352955424
-s2023
-i"ofRectangle.h"
-i"ofAppRunner.h"
-i"ofNode.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/3d/ofEasyCam.h
-c0000000050A47620000000000000084E
-t1352955424
-s2126
-i"ofCamera.h"
-i"ofEvents.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/3d/ofMesh.h
-c0000000050A4762000000000000010F0
-t1352955424
-s4336
-i"ofVec3f.h"
-i"ofVec2f.h"
-i"ofColor.h"
-i"ofUtils.h"
-i"ofConstants.h"
-i"ofGLUtils.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/3d/ofNode.h
-c0000000050A47620000000000000142B
-t1352955424
-s5163
-i"ofVectorMath.h"
-i"of3dUtils.h"
-i"ofGraphics.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/app/ofAppBaseWindow.h
-c0000000050A476200000000000000590
-t1352955424
-s1424
-i"ofPoint.h"
-i"ofTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/app/ofAppGlutWindow.h
-c0000000050A476200000000000000701
-t1352955424
-s1793
-i"ofConstants.h"
-i"ofAppBaseWindow.h"
-i"ofEvents.h"
-i"ofTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/app/ofAppRunner.h
-c0000000050A47620000000000000075D
-t1352955424
-s1885
-i"ofConstants.h"
-i"ofPoint.h"
-i"ofRectangle.h"
-i"ofTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/app/ofBaseApp.h
-c0000000050A4762000000000000003A4
-t1352955424
-s932
-i"ofPoint.h"
-i"ofEvents.h"
-i"ofBaseTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/communication/ofArduino.h
-c0000000050A476200000000000004239
-t1352955424
-s16953
-i<list>
-i<vector>
-i<string>
-i<iostream>
-i"ofEvents.h"
-i"ofSerial.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/communication/ofSerial.h
-c0000000050A476200000000000000D4C
-t1352955424
-s3404
-i"ofConstants.h"
-i"ofTypes.h"
-i<termios.h>
-i<winbase.h>
-i<tchar.h>
-i<iostream>
-i<string.h>
-i<setupapi.h>
-i<regstr.h>
-i<winioctl.h>
-i<initguid.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/events/ofEventUtils.h
-c0000000050A476200000000000000E80
-t1352955424
-s3712
-i"ofConstants.h"
-i"Poco/FIFOEvent.h"
-i"Poco/Delegate.h"
-i<stdio.h>
-i<stdlib.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/events/ofEvents.h
-c0000000050A476200000000000001CB9
-t1352955424
-s7353
-i"ofConstants.h"
-i"ofPoint.h"
-i"ofEventUtils.h"
-i"ofxEventUtils.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofFbo.h
-c0000000050A47620000000000000104A
-t1352955424
-s4170
-i"ofTexture.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofGLRenderer.h
-c0000000050A4762000000000000013A0
-t1352955424
-s5024
-i"ofBaseTypes.h"
-i"ofPolyline.h"
-i"ofMatrix4x4.h"
-i<stack>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofGLUtils.h
-c0000000050A476200000000000000D78
-t1352955424
-s3448
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofLight.h
-c0000000050A476200000000000000934
-t1352955424
-s2356
-i"ofNode.h"
-i"ofColor.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofMaterial.h
-c0000000050A476200000000000000555
-t1352955424
-s1365
-i"ofColor.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofShader.h
-c0000000050A476200000000000001039
-t1352955424
-s4153
-i"ofConstants.h"
-i"ofBaseTypes.h"
-i"ofTexture.h"
-i"ofMatrix4x4.h"
-i<map>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofTexture.h
-c0000000050A47620000000000000164D
-t1352955424
-s5709
-i"ofPoint.h"
-i"ofRectangle.h"
-i"ofBaseTypes.h"
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofVbo.h
-c0000000050A476200000000000000B4B
-t1352955424
-s2891
-i"ofConstants.h"
-i"ofVec3f.h"
-i"ofColor.h"
-i"ofUtils.h"
-i"ofMesh.h"
-i"ofGLUtils.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/gl/ofVboMesh.h
-c0000000050A47620000000000000029E
-t1352955424
-s670
-i"ofMesh.h"
-i"ofVbo.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofCairoRenderer.h
-c0000000050A476200000000000001627
-t1352955424
-s5671
-i"cairo-features.h"
-i"cairo-pdf.h"
-i"cairo-svg.h"
-i"cairo.h"
-i<deque>
-i<stack>
-i"ofMatrix4x4.h"
-i"ofBaseTypes.h"
-i"ofPath.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofGraphics.h
-c0000000050A4762000000000000023BD
-t1352955424
-s9149
-i"ofConstants.h"
-i"ofColor.h"
-i"ofPoint.h"
-i"ofMatrix4x4.h"
-i"ofRectangle.h"
-i"ofTypes.h"
-i"ofBaseTypes.h"
-i"ofGLRenderer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofImage.h
-c0000000050A476200000000000002116
-t1352955424
-s8470
-i"ofFileUtils.h"
-i"ofTexture.h"
-i"ofPixels.h"
-i"ofBaseTypes.h"
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofPath.h
-c0000000050A476200000000000001328
-t1352955424
-s4904
-i"ofConstants.h"
-i"ofPoint.h"
-i"ofColor.h"
-i"ofPolyline.h"
-i"ofBaseTypes.h"
-i"ofMesh.h"
-i"ofTessellator.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofPixels.h
-c0000000050A4762000000000000013D2
-t1352955424
-s5074
-i"ofConstants.h"
-i"ofUtils.h"
-i"ofColor.h"
-i"ofMath.h"
-i<limits>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofPolyline.h
-c0000000050A476200000000000001538
-t1352955424
-s5432
-i"ofPoint.h"
-i"ofConstants.h"
-i<deque>
-i"ofRectangle.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofRendererCollection.h
-c0000000050A476200000000000002C1F
-t1352955424
-s11295
-i"ofBaseTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofTessellator.h
-c0000000050A476200000000000000459
-t1352955424
-s1113
-i"ofConstants.h"
-i"ofMesh.h"
-i"ofTypes.h"
-i"ofPolyline.h"
-i"tesselator.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/graphics/ofTrueTypeFont.h
-c0000000050A476200000000000000A3C
-t1352955424
-s2620
-i<vector>
-i"ofPoint.h"
-i"ofRectangle.h"
-i"ofConstants.h"
-i"ofPath.h"
-i"ofTexture.h"
-i"ofMesh.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofMath.h
-c0000000050A476200000000000000B46
-t1352955424
-s2886
-i"ofPoint.h"
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofMatrix3x3.h
-c0000000050A476200000000000000BB7
-t1352955424
-s2999
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofMatrix4x4.h
-c0000000050A476200000000000006D64
-t1352955424
-s28004
-i"ofVec3f.h"
-i"ofVec4f.h"
-i"ofQuaternion.h"
-i"ofConstants.h"
-i<cmath>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofQuaternion.h
-c0000000050A4762000000000000034A0
-t1352955424
-s13472
-i"ofConstants.h"
-i"ofVec3f.h"
-i"ofVec4f.h"
-i<cmath>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofVec2f.h
-c0000000050A4762000000000000043E6
-t1352955424
-s17382
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofVec3f.h
-c0000000050A47620000000000000654E
-t1352955424
-s25934
-i"ofVec2f.h"
-i"ofVec4f.h"
-i"ofConstants.h"
-i<cmath>
-i<iostream>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofVec4f.h
-c0000000050A47620000000000000306F
-t1352955424
-s12399
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/math/ofVectorMath.h
-c0000000050A476200000000000000099
-t1352955424
-s153
-i"ofVec2f.h"
-i"ofVec3f.h"
-i"ofVec4f.h"
-i"ofMatrix3x3.h"
-i"ofMatrix4x4.h"
-i"ofQuaternion.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/ofMain.h
-c0000000050A476200000000000000686
-t1352955424
-s1670
-i"ofConstants.h"
-i"ofFileUtils.h"
-i"ofLog.h"
-i"ofSystemUtils.h"
-i"ofThread.h"
-i"ofURLFileLoader.h"
-i"ofUtils.h"
-i"ofBaseTypes.h"
-i"ofTypes.h"
-i"ofColor.h"
-i"ofPoint.h"
-i"ofRectangle.h"
-i"ofMath.h"
-i"ofVectorMath.h"
-i"ofSerial.h"
-i"ofArduino.h"
-i"ofFbo.h"
-i"ofGLRenderer.h"
-i"ofGLUtils.h"
-i"ofLight.h"
-i"ofMaterial.h"
-i"ofShader.h"
-i"ofTexture.h"
-i"ofVbo.h"
-i"ofVboMesh.h"
-i"ofCairoRenderer.h"
-i"ofGraphics.h"
-i"ofImage.h"
-i"ofPath.h"
-i"ofPixels.h"
-i"ofPolyline.h"
-i"ofRendererCollection.h"
-i"ofTessellator.h"
-i"ofTrueTypeFont.h"
-i"ofBaseApp.h"
-i"ofAppRunner.h"
-i"ofSoundStream.h"
-i"ofSoundPlayer.h"
-i"ofVideoGrabber.h"
-i"ofVideoPlayer.h"
-i"ofEvents.h"
-i"of3dUtils.h"
-i"ofCamera.h"
-i"ofEasyCam.h"
-i"ofMesh.h"
-i"ofNode.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h
-c0000000050A476200000000000000406
-t1352955424
-s1030
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofBaseSoundStream.h
-c0000000050A4762000000000000002D4
-t1352955424
-s724
-i"ofConstants.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofFmodSoundPlayer.h
-c0000000050A4762000000000000006F4
-t1352955424
-s1780
-i"ofConstants.h"
-i"ofBaseSoundPlayer.h"
-i"fmod.h"
-i"fmod_errors.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofOpenALSoundPlayer.h
-c0000000050A476200000000000000ECD
-t1352955424
-s3789
-i"ofConstants.h"
-i"ofBaseSoundPlayer.h"
-i"ofEvents.h"
-i"ofThread.h"
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<AL/al.h>
-i<AL/alc.h>
-i"kiss_fft.h"
-i"kiss_fftr.h"
-i<sndfile.h>
-i<mpg123.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofPASoundStream.h
-c0000000050A47620000000000000052D
-t1352955424
-s1325
-i"ofConstants.h"
-i"ofBaseSoundStream.h"
-i"ofTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h
-c0000000050A47620000000000000050F
-t1352955424
-s1295
-i"ofConstants.h"
-i"ofBaseSoundStream.h"
-i"ofTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofSoundPlayer.h
-c0000000050A476200000000000000724
-t1352955424
-s1828
-i"ofConstants.h"
-i"ofTypes.h"
-i"ofBaseTypes.h"
-i"ofBaseSoundPlayer.h"
-i"ofQuicktimeSoundPlayer.h"
-i"ofFmodSoundPlayer.h"
-i"ofOpenALSoundPlayer.h"
-i"ofxOpenALSoundPlayer.h"
-i"ofxAndroidSoundPlayer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/sound/ofSoundStream.h
-c0000000050A4762000000000000006DB
-t1352955424
-s1755
-i"ofConstants.h"
-i"ofBaseTypes.h"
-i"ofBaseApp.h"
-i"ofTypes.h"
-i"ofBaseSoundStream.h"
-i"ofRtAudioSoundStream.h"
-i"ofPASoundStream.h"
-i"ofxAndroidSoundStream.h"
-i"ofxiPhoneSoundStream.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/types/ofBaseTypes.h
-c0000000050A4762000000000000031F9
-t1352955424
-s12793
-i"ofPoint.h"
-i"ofRectangle.h"
-i"ofConstants.h"
-i"ofColor.h"
-i"ofMesh.h"
-i"ofPixels.h"
-i"ofMatrix4x4.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/types/ofColor.h
-c0000000050A47620000000000000159D
-t1352955424
-s5533
-i<limits>
-i"ofMath.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/types/ofPoint.h
-c0000000050A47620000000000000003D
-t1352955424
-s61
-i"ofVec3f.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/types/ofRectangle.h
-c0000000050A476200000000000001BEF
-t1352955424
-s7151
-i"ofConstants.h"
-i"ofPoint.h"
-i"ofLog.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/types/ofTypes.h
-c0000000050A47620000000000000104B
-t1352955424
-s4171
-i"ofConstants.h"
-i"ofColor.h"
-i<memory>
-i<tr1/memory>
-i"Poco/Mutex.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofConstants.h
-c0000000050A476200000000000004003
-t1352955424
-s16387
-i<TargetConditionals.h>
-i<windows.h>
-i"GL\glew.h"
-i"GL\wglew.h"
-i"glu.h"
-i<stdint.h>
-i<unistd.h>
-i"GL/glew.h"
-i<OpenGL/gl.h>
-i<ApplicationServices/ApplicationServices.h>
-i<unistd.h>
-i<glxew.h>
-i<GL/glew.h>
-i<GL/gl.h>
-i<GL/glx.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<typeinfo>
-i<unistd.h>
-i<GLES/gl.h>
-i<GLES/glext.h>
-i"glu.h"
-i"tesselator.h"
-i<cstdlib>
-i<cstdio>
-i<cstdarg>
-i<cmath>
-i<ctime>
-i<cstdlib>
-i<string>
-i<iostream>
-i<vector>
-i<cstring>
-i<sstream>
-i<iomanip>
-i<fstream>
-i<algorithm>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofFileUtils.h
-c0000000050A476200000000000001EE6
-t1352955424
-s7910
-i"ofConstants.h"
-i"Poco/File.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofLog.h
-c0000000050A4762000000000000015C0
-t1352955424
-s5568
-i"ofConstants.h"
-i"ofFileUtils.h"
-i"ofTypes.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofSystemUtils.h
-c0000000050A476200000000000000202
-t1352955424
-s514
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofThread.h
-c0000000050A47620000000000000141A
-t1352955424
-s5146
-i"ofConstants.h"
-i"ofTypes.h"
-i"Poco/Thread.h"
-i"Poco/Runnable.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofURLFileLoader.h
-c0000000050A4762000000000000008C4
-t1352955424
-s2244
-i<deque>
-i<queue>
-i"ofThread.h"
-i"ofEvents.h"
-i"ofFileUtils.h"
-i"Poco/Condition.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/utils/ofUtils.h
-c0000000050A4762000000000000015A6
-t1352955424
-s5542
-i"ofConstants.h"
-i<bitset>
-i"ofLog.h"
-i<shellapi.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofDirectShowGrabber.h
-c0000000050A4762000000000000004D4
-t1352955424
-s1236
-i"ofConstants.h"
-i"ofTexture.h"
-i"ofBaseTypes.h"
-i"ofPixels.h"
-i"videoInput.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofGstUtils.h
-c0000000050A476200000000000000F62
-t1352955424
-s3938
-i"ofConstants.h"
-i"ofConstants.h"
-i"ofBaseTypes.h"
-i"ofPixels.h"
-i"ofTypes.h"
-i"ofEvents.h"
-i<gst/gstpad.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofGstVideoGrabber.h
-c0000000050A47620000000000000057E
-t1352955424
-s1406
-i"ofGstUtils.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofGstVideoPlayer.h
-c0000000050A476200000000000000628
-t1352955424
-s1576
-i"ofGstUtils.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofQTKitGrabber.h
-c0000000050A476200000000000000C08
-t1352955424
-s3080
-i"ofMain.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofQTKitMovieRenderer.h
-c0000000050A476200000000000000ADD
-t1352955424
-s2781
-i<Cocoa/Cocoa.h>
-i<Quartz/Quartz.h>
-i<QTKit/QTKit.h>
-i<OpenGL/OpenGL.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofQTKitPlayer.h
-c0000000050A47620000000000000132D
-t1352955424
-s4909
-i"ofMain.h"
-i"ofQTKitMovieRenderer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofQtUtils.h
-c0000000050A4762000000000000006EC
-t1352955424
-s1772
-i"ofConstants.h"
-i<QuickTime/QuickTime.h>
-i<CoreServices/CoreServices.h>
-i<ApplicationServices/ApplicationServices.h>
-i<QTML.h>
-i<FixMath.h>
-i<QuickTimeComponents.h>
-i<TextUtils.h>
-i<MediaHandlers.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofQuickTimeGrabber.h
-c0000000050A4762000000000000006CC
-t1352955424
-s1740
-i"ofConstants.h"
-i"ofQtUtils.h"
-i"ofTexture.h"
-i"ofBaseTypes.h"
-i"ofPixels.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofQuickTimePlayer.h
-c0000000050A476200000000000000861
-t1352955424
-s2145
-i"ofConstants.h"
-i"ofBaseTypes.h"
-i"ofPixels.h"
-i"ofQtUtils.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofVideoGrabber.h
-c0000000050A476200000000000000B2F
-t1352955424
-s2863
-i"ofConstants.h"
-i"ofTexture.h"
-i"ofBaseTypes.h"
-i"ofPixels.h"
-i"ofTypes.h"
-i"ofiPhoneVideoGrabber.h"
-i"ofQuickTimeGrabber.h"
-i"ofQTKitGrabber.h"
-i"ofDirectShowGrabber.h"
-i"ofGstVideoGrabber.h"
-i"ofxAndroidVideoGrabber.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworks/video/ofVideoPlayer.h
-c0000000050A476200000000000000B6E
-t1352955424
-s2926
-i"ofConstants.h"
-i"ofTexture.h"
-i"ofBaseTypes.h"
-i"ofTypes.h"
-i"ofGstVideoPlayer.h"
-i"ofQuickTimePlayer.h"
-i"ofQTKitPlayer.h"
-i"ofiPhoneVideoPlayer.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
-c00000000511685C600000000016608E8
-t1360430534
-s23464168
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/AbstractDelegate.h
-c0000000050A476200000000000000AF0
-t1352955424
-s2800
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/AbstractEvent.h
-c0000000050A476200000000000002EED
-t1352955424
-s12013
-i"Poco/Foundation.h"
-i"Poco/SingletonHolder.h"
-i"Poco/SharedPtr.h"
-i"Poco/ActiveResult.h"
-i"Poco/ActiveMethod.h"
-i"Poco/Mutex.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ActiveMethod.h
-c0000000050A476200000000000001C64
-t1352955424
-s7268
-i"Poco/Foundation.h"
-i"Poco/ActiveResult.h"
-i"Poco/ActiveRunnable.h"
-i"Poco/ActiveStarter.h"
-i"Poco/AutoPtr.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ActiveResult.h
-c0000000050A476200000000000002E66
-t1352955424
-s11878
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-i"Poco/Event.h"
-i"Poco/RefCountedObject.h"
-i"Poco/Exception.h"
-i<algorithm>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ActiveRunnable.h
-c0000000050A476200000000000001785
-t1352955424
-s6021
-i"Poco/Foundation.h"
-i"Poco/ActiveResult.h"
-i"Poco/Runnable.h"
-i"Poco/RefCountedObject.h"
-i"Poco/AutoPtr.h"
-i"Poco/Exception.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ActiveStarter.h
-c0000000050A476200000000000000927
-t1352955424
-s2343
-i"Poco/Foundation.h"
-i"Poco/ThreadPool.h"
-i"Poco/ActiveRunnable.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/AtomicCounter.h
-c0000000050A476200000000000002138
-t1352955424
-s8504
-i"Poco/Foundation.h"
-i"Poco/UnWindows.h"
-i<libkern/OSAtomic.h>
-i"Poco/Mutex.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/AutoPtr.h
-c0000000050A476200000000000001E0C
-t1352955424
-s7692
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<algorithm>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Bugcheck.h
-c0000000050A4762000000000000014A9
-t1352955424
-s5289
-i"Poco/Foundation.h"
-i<string>
-i<iostream>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Condition.h
-c0000000050A476200000000000001236
-t1352955424
-s4662
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-i"Poco/ScopedUnlock.h"
-i"Poco/Event.h"
-i"Poco/Exception.h"
-i<deque>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Config.h
-c0000000050A476200000000000000EA4
-t1352955424
-s3748
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/DefaultStrategy.h
-c0000000050A476200000000000000D64
-t1352955424
-s3428
-i"Poco/NotificationStrategy.h"
-i"Poco/SharedPtr.h"
-i<vector>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Delegate.h
-c0000000050A476200000000000001B3D
-t1352955424
-s6973
-i"Poco/Foundation.h"
-i"Poco/AbstractDelegate.h"
-i"Poco/FunctionDelegate.h"
-i"Poco/Expire.h"
-i"Poco/Mutex.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Event.h
-c0000000050A476200000000000000E58
-t1352955424
-s3672
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/Event_WIN32.h"
-i"Poco/Event_VX.h"
-i"Poco/Event_POSIX.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Event_POSIX.h
-c0000000050A476200000000000000A91
-t1352955424
-s2705
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<pthread.h>
-i<errno.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Event_VX.h
-c0000000050A47620000000000000085E
-t1352955424
-s2142
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<semLib.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Event_WIN32.h
-c0000000050A47620000000000000093F
-t1352955424
-s2367
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/UnWindows.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Exception.h
-c0000000050A4762000000000000028B1
-t1352955424
-s10417
-i"Poco/Foundation.h"
-i<stdexcept>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Expire.h
-c0000000050A476200000000000000D44
-t1352955424
-s3396
-i"Poco/Foundation.h"
-i"Poco/AbstractDelegate.h"
-i"Poco/Timestamp.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/FIFOEvent.h
-c0000000050A4762000000000000009FD
-t1352955424
-s2557
-i"Poco/AbstractEvent.h"
-i"Poco/FIFOStrategy.h"
-i"Poco/AbstractDelegate.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/FIFOStrategy.h
-c0000000050A476200000000000000962
-t1352955424
-s2402
-i"Poco/DefaultStrategy.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File.h
-c0000000050A476200000000000001FCC
-t1352955424
-s8140
-i"Poco/Foundation.h"
-i"Poco/Timestamp.h"
-i<vector>
-i"File_WINCE.h"
-i"Poco/File_WIN32U.h"
-i"Poco/File_WIN32.h"
-i"Poco/File_VX.h"
-i"Poco/File_UNIX.h"
-i"Poco/File_VMS.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File_UNIX.h
-c0000000050A476200000000000000BC1
-t1352955424
-s3009
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File_VMS.h
-c0000000050A476200000000000000BBC
-t1352955424
-s3004
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File_VX.h
-c0000000050A476200000000000000BBA
-t1352955424
-s3002
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File_WIN32.h
-c0000000050A476200000000000000C0C
-t1352955424
-s3084
-i"Poco/Foundation.h"
-i"Poco/Timestamp.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File_WIN32U.h
-c0000000050A476200000000000000C2B
-t1352955424
-s3115
-i"Poco/Foundation.h"
-i"Poco/Timestamp.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/File_WINCE.h
-c0000000050A476200000000000000C2C
-t1352955424
-s3116
-i"Poco/Foundation.h"
-i"Poco/Timestamp.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Foundation.h
-c0000000050A4762000000000000010F9
-t1352955424
-s4345
-i"Poco/Config.h"
-i"Poco/Platform.h"
-i"Poco/Platform_WIN32.h"
-i"Poco/Platform_VMS.h"
-i"Poco/Platform_VX.h"
-i"Poco/Platform_POSIX.h"
-i"Poco/Bugcheck.h"
-i"Poco/Types.h"
-i<string>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/FunctionDelegate.h
-c0000000050A4762000000000000017B0
-t1352955424
-s6064
-i"Poco/Foundation.h"
-i"Poco/AbstractDelegate.h"
-i"Poco/Mutex.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Mutex.h
-c0000000050A476200000000000001DD6
-t1352955424
-s7638
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/ScopedLock.h"
-i"Poco/Mutex_WINCE.h"
-i"Poco/Mutex_WIN32.h"
-i"Poco/Mutex_VX.h"
-i"Poco/Mutex_POSIX.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Mutex_POSIX.h
-c0000000050A476200000000000000AC2
-t1352955424
-s2754
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<pthread.h>
-i<errno.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Mutex_VX.h
-c0000000050A476200000000000000A20
-t1352955424
-s2592
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<semLib.h>
-i<errno.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Mutex_WIN32.h
-c0000000050A476200000000000000A04
-t1352955424
-s2564
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/UnWindows.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Mutex_WINCE.h
-c0000000050A476200000000000000870
-t1352955424
-s2160
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/UnWindows.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/NotificationStrategy.h
-c0000000050A476200000000000000B62
-t1352955424
-s2914
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Platform.h
-c0000000050A476200000000000001CBD
-t1352955424
-s7357
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Platform_POSIX.h
-c0000000050A476200000000000000843
-t1352955424
-s2115
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Platform_VMS.h
-c0000000050A476200000000000000BAA
-t1352955424
-s2986
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Platform_VX.h
-c0000000050A4762000000000000007B3
-t1352955424
-s1971
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Platform_WIN32.h
-c0000000050A476200000000000000DCF
-t1352955424
-s3535
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/RefCountedObject.h
-c0000000050A476200000000000000BB1
-t1352955424
-s2993
-i"Poco/Foundation.h"
-i"Poco/AtomicCounter.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Runnable.h
-c0000000050A476200000000000000861
-t1352955424
-s2145
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ScopedLock.h
-c0000000050A476200000000000000CC5
-t1352955424
-s3269
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ScopedUnlock.h
-c0000000050A47620000000000000092B
-t1352955424
-s2347
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/SharedPtr.h
-c0000000050A476200000000000002278
-t1352955424
-s8824
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/AtomicCounter.h"
-i<algorithm>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/SignalHandler.h
-c0000000050A476200000000000001205
-t1352955424
-s4613
-i"Poco/Foundation.h"
-i<vector>
-i<setjmp.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/SingletonHolder.h
-c0000000050A476200000000000000A67
-t1352955424
-s2663
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Thread.h
-c0000000050A476200000000000001E48
-t1352955424
-s7752
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-i"Poco/Thread_WINCE.h"
-i"Poco/Thread_WIN32.h"
-i"Poco/Thread_VX.h"
-i"Poco/Thread_POSIX.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/ThreadPool.h
-c0000000050A476200000000000001C8A
-t1352955424
-s7306
-i"Poco/Foundation.h"
-i"Poco/Thread.h"
-i"Poco/Mutex.h"
-i<vector>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Thread_POSIX.h
-c0000000050A4762000000000000014C0
-t1352955424
-s5312
-i"Poco/Foundation.h"
-i"Poco/Runnable.h"
-i"Poco/SignalHandler.h"
-i"Poco/Event.h"
-i"Poco/RefCountedObject.h"
-i"Poco/AutoPtr.h"
-i<pthread.h>
-i<limits.h>
-i<sys/select.h>
-i<errno.h>
-i<cstring>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Thread_VX.h
-c0000000050A476200000000000001125
-t1352955424
-s4389
-i"Poco/Foundation.h"
-i"Poco/Runnable.h"
-i"Poco/SignalHandler.h"
-i"Poco/Event.h"
-i"Poco/RefCountedObject.h"
-i"Poco/AutoPtr.h"
-i<taskLib.h>
-i<taskVarLib.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Thread_WIN32.h
-c0000000050A476200000000000001301
-t1352955424
-s4865
-i"Poco/Foundation.h"
-i"Poco/Runnable.h"
-i"Poco/UnWindows.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Thread_WINCE.h
-c0000000050A476200000000000001276
-t1352955424
-s4726
-i"Poco/Foundation.h"
-i"Poco/Runnable.h"
-i"Poco/UnWindows.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Timestamp.h
-c0000000050A476200000000000001A41
-t1352955424
-s6721
-i"Poco/Foundation.h"
-i<ctime>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/Types.h
-c0000000050A476200000000000001ABE
-t1352955424
-s6846
-i"Poco/Foundation.h"
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/poco/include/Poco/UnWindows.h
-c0000000050A476200000000000000FC3
-t1352955424
-s4035
-i<windows.h>
-
-N/Applications/openFrameworks/of_v0073_osx_release/libs/tess2/include/tesselator.h
-c0000000050A476300000000000001C63
-t1352955440
-s7267
-i<TargetConditionals.h>
-
-N/Developer-old/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
-c000000004A12050C0000000000000475
-t1242694924
-s1141
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c000000004C23BF2D00000000000005FF
-t1277411117
-s1535
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
-c000000004A11F0980000000000000400
-t1242689688
-s1024
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004C23B11200000000000064F9
-t1277407506
-s25849
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004C23B1120000000000001F41
-t1277407506
-s8001
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
-c000000004BD2501F0000000000001659
-t1272074271
-s5721
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
-c000000004BD2501F0000000000025B59
-t1272074271
-s154457
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
-c000000004BD2501F0000000000003F84
-t1272074271
-s16260
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h
-c000000004C23CA8F000000000000044A
-t1277414031
-s1098
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
-c000000004AD870D50000000000000124
-t1255698645
-s292
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
-c000000004C23C4D00000000000000659
-t1277412560
-s1625
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/TargetConditionals.h
-c000000004A11A9B300000000000031E9
-t1242671539
-s12777
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/alloca.h
-c000000004BBD2CE90000000000000588
-t1270689001
-s1416
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/assert.h
-c000000004BBD2CE90000000000000DCB
-t1270689001
-s3531
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/errno.h
-c000000004BBD2CE900000000000003EB
-t1270689001
-s1003
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h
-c000000004BBD2CE900000000000027D1
-t1270689001
-s10193
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/libkern/OSAtomic.h
-c000000004BBD2CE90000000000002519
-t1270689001
-s9497
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
-c000000004BBD2CE900000000000038F0
-t1270689001
-s14576
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h
-c000000004BBD2CE90000000000000438
-t1270689001
-s1080
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004BBD2CE90000000000001731
-t1270689001
-s5937
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/sys/mman.h
-c000000004C2399470000000000002098
-t1277401415
-s8344
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h
-c000000004C23994700000000000016A2
-t1277401415
-s5794
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/termios.h
-c000000004BBD2CE900000000000004D4
-t1270689001
-s1236
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
-c000000004BBD2CE9000000000000563E
-t1270689001
-s22078
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
-c000000004A11EB24000000000000EA8F
-t1242688292
-s60047
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
-c000000004A11EB240000000000001538
-t1242688292
-s5432
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
-c000000004A11EB240000000000000C7E
-t1242688292
-s3198
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/pmmintrin.h
-c000000004A11EB24000000000000155D
-t1242688292
-s5469
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004A11EB2400000000000010DD
-t1242688292
-s4317
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004A11EB240000000000003197
-t1242688292
-s12695
-
-N/Developer-old/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
-c000000004A11EB24000000000000190C
-t1242688292
-s6412
-
-N/System/Library/Frameworks/AGL.framework/AGL
-c000000004DEEB9110000000000043820
-t1307490577
-s276512
-
-N/System/Library/Frameworks/Accelerate.framework/Accelerate
-c000000004C23D694000000000000A500
-t1277417108
-s42240
-
-N/System/Library/Frameworks/AppKit.framework/AppKit
-c000000004DB8539B0000000002B5C7A0
-t1303925659
-s45467552
-
-N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-c000000004CDCC8CE0000000000022140
-t1289537742
-s139584
-
-N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004EE0342D000000000051BA20
-t1323316269
-s5356064
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004DF9CD1C000000000000A5F0
-t1308216604
-s42480
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004CDCC8D0000000000000A5E0
-t1289537744
-s42464
-
-N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000004DEEB6D200000000002181A0
-t1307490002
-s2195872
-
-N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004E2085850000000000782350
-t1310754181
-s7873360
-
-N/System/Library/Frameworks/CoreServices.framework/CoreServices
-c000000004C23F49F0000000000021710
-t1277424799
-s136976
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004C93B60C00000000000AD430
-t1284748812
-s709680
-
-N/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004DE8236E000000000017B260
-t1307059054
-s1552992
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004EDEBFD00000000000043360
-t1323220944
-s275296
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000004F6A1FFD0000000000673C60
-t1332355069
-s6765664
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004F6A1EA60000000000785980
-t1332354726
-s7887232
-
-N/var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h.gch
-t1362105661
-s53765872
-
-NopenFrameworks-Info.plist
-c0000000050A476420000000000000277
-t1352955458
-s631
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies383798458#383798458#0(0"0(0#1#0"28429427921584240#0"0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/main.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.433637
-e383798466.181115
-r0
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/main.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h:6,
-o                 from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp:2:
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected `)' before numeric constant
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ',' or '...' before numeric constant
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ';' before ')' token
-lSLF07#2@101"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp383798461#383798466#0(709"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h:6,                 from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp:2:/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected `)' before numeric constant/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ',' or '...' before numeric constant/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ';' before ')' token3(4@36"Expected `)' before numeric constant383798465#239#156#3(7@115"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp383798465#18446744073709551615#0#0(6@93"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp374648212#2#0#2#0#0"0(7@116"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798465#18446744073709551615#0#0(6@94"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798354#6#0#6#0#0"0(13@147"Expected `)' before numeric constant in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798465#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@45"Expected ',' or '...' before numeric constant383798465#395#165#3(7@115"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp383798465#18446744073709551615#0#0(6@93"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp374648212#2#0#2#0#0"0(7@116"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798465#18446744073709551615#0#0(6@94"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798354#6#0#6#0#0"0(13@156"Expected ',' or '...' before numeric constant in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798465#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@29"Expected ';' before ')' token383798465#560#149#3(7@115"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp383798465#18446744073709551615#0#0(6@93"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp374648212#2#0#2#0#0"0(7@116"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798465#18446744073709551615#0#0(6@94"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798354#6#0#6#0#0"0(13@140"Expected ';' before ')' token in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798465#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(0#0#93"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp4861748425469947904#3541"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/main.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/main.o1#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxColorQuantizer.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798466.181230
-e383798468.254561
-r0
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxColorQuantizer.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp:10:
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected `)' before numeric constant
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ',' or '...' before numeric constant
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ';' before ')' token
-lSLF07#2@117"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798466#383798468#0(606"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp:10:/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected `)' before numeric constant/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ',' or '...' before numeric constant/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ';' before ')' token3(4@36"Expected `)' before numeric constant383798468#136#156#2(7@131"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798468#18446744073709551615#0#0(6@109"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798200#10#0#10#0#0"0(13@147"Expected `)' before numeric constant in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798468#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@45"Expected ',' or '...' before numeric constant383798468#292#165#2(7@131"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798468#18446744073709551615#0#0(6@109"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798200#10#0#10#0#0"0(13@156"Expected ',' or '...' before numeric constant in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798468#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@29"Expected ';' before ')' token383798468#457#149#2(7@131"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798468#18446744073709551615#0#0(6@109"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp383798200#10#0#10#0#0"0(13@140"Expected ';' before ')' token in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798468#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(0#0#109"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp8607345984#3570"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxColorQuantizer.o1#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvColorImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.439946
-e383798466.452637
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvColorImage.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@138"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp383798461#383798466#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#130"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp8628367872#3589"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvColorImage.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvContourFinder.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.443335
-e383798466.684965
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvContourFinder.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@141"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp383798461#383798466#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#133"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp8602187360#3595"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvContourFinder.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvFloatImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.441276
-e383798466.662269
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvFloatImage.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@138"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp383798461#383798466#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#130"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp8621937248#3589"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvFloatImage.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.439122
-e383798466.448091
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvGrayscaleImage.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@142"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp383798461#383798466#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#134"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp8612263712#3597"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvGrayscaleImage.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvHaarFinder.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.444538
-e383798466.684777
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvHaarFinder.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@138"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp383798461#383798466#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#130"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp8608214144#3589"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvHaarFinder.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvHaarFinder.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798466.179430
-e383798468.440006
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvImage.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@133"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp383798466#383798468#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#125"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp8607873696#3579"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvImage.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvImage.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvShortImage.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.442395
-e383798466.328086
-r1
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvShortImage.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@138"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp383798461#383798466#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#130"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp8611450432#3589"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/ofxCvShortImage.o0#
-
-CCompileC build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/testApp.o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s383798461.434519
-e383798466.179246
-r0
-xCompileC
-xbuild/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/testApp.o
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h:6,
-o                 from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:1:
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected `)' before numeric constant
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ',' or '...' before numeric constant
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ';' before ')' token
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:131: error: no 'void testApp::windowResized(int, int)' member function declared in class 'testApp'
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:136: error: no 'void testApp::gotMessage(ofMessage)' member function declared in class 'testApp'
-o/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:141: error: no 'void testApp::dragEvent(ofDragInfo)' member function declared in class 'testApp'
-lSLF07#2@104"Compile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798461#383798466#0(1296"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h:6,                 from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:1:/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected `)' before numeric constant/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ',' or '...' before numeric constant/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h:13: error: expected ';' before ')' token/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:131: error: no 'void testApp::windowResized(int, int)' member function declared in class 'testApp'/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:136: error: no 'void testApp::gotMessage(ofMessage)' member function declared in class 'testApp'/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp:141: error: no 'void testApp::dragEvent(ofDragInfo)' member function declared in class 'testApp'6(4@36"Expected `)' before numeric constant383798465#242#156#3(7@118"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798465#18446744073709551615#0#0(6@96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798456#1#0#1#0#0"0(7@116"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798465#18446744073709551615#0#0(6@94"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798354#6#0#6#0#0"0(13@147"Expected `)' before numeric constant in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798465#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@45"Expected ',' or '...' before numeric constant383798465#398#165#3(7@118"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798465#18446744073709551615#0#0(6@96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798456#1#0#1#0#0"0(7@116"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798465#18446744073709551615#0#0(6@94"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798354#6#0#6#0#0"0(13@156"Expected ',' or '...' before numeric constant in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798465#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@29"Expected ';' before ')' token383798465#563#149#3(7@118"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798465#18446744073709551615#0#0(6@96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798456#1#0#1#0#0"0(7@116"In file included from /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798465#18446744073709551615#0#0(6@94"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.h383798354#6#0#6#0#0"0(13@140"Expected ';' before ')' token in /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798465#18446744073709551615#0#0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#0"0(6@107"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../src/ofxColorQuantizer.h383798319#13#0#13#0#19"expected * before *0(4@86"No 'void testApp::windowResized(int, int)' member function declared in class 'testApp'383798465#712#196#0(6@96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798456#131#0#131#0#0"0(4@84"No 'void testApp::gotMessage(ofMessage)' member function declared in class 'testApp'383798465#908#194#0(6@96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798456#136#0#136#0#0"0(4@84"No 'void testApp::dragEvent(ofDragInfo)' member function declared in class 'testApp'383798465#1102#194#0(6@96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp383798456#141#0#141#0#0"0(0#0#96"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp8610083232#3547"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -include /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/src/testApp.cpp -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/testApp.o1#
-
-CLd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/opencvExampleDebug normal i386
-r0
-
-CPBXCp bin/opencvExampleDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
-s383798468.608296
-e383798468.923891
-r1
-xPBXCp
-xbin/opencvExampleDebug.app/Contents/Frameworks/GLUT.framework
-x../../../libs/glut/lib/osx/GLUT.framework
-lSLF07#2@46"Copy ../../../libs/glut/lib/osx/GLUT.framework383798468#383798468#0(0"0(0#0#122"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx/GLUT.framework8609940320#505"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx/GLUT.framework /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/opencvExampleDebug.app/Contents/Frameworks0#
-
-CPhaseScriptExecution "Run Script" /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-s383798468.440085
-e383798468.608210
-r0
-xPhaseScriptExecution
-xRun Script
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-ocp: /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/libfmodex.dylib: No such file or directory
-oinstall_name_tool: can't open file: /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/opencvExampleDebug (No such file or directory)
-lSLF07#2@36"Run custom shell script 'Run Script'383798468#383798468#0(378"cp: /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/libfmodex.dylib: No such file or directoryinstall_name_tool: can't open file: /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/opencvExampleDebug (No such file or directory)2(4@170"Cp: /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/libfmodex.dylib: No such file or directory383798468#0#171#0(1@0"0(13@207"install_name_tool: can't open file: /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/MacOS/opencvExampleDebug (No such file or directory)383798468#171#207#0(1@0"0(0#0#0"8608429216#25093"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv ACTION build    setenv ALTERNATE_GROUP cinema    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER cinema    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build    setenv BUILD_ROOT /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/    setenv CACHE_ROOT /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/    setenv CONFIGURATION_TEMP_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug    setenv CONTENTS_FOLDER_PATH opencvExampleDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer-old/Applications    setenv DEVELOPER_BIN_DIR /Developer-old/usr/bin    setenv DEVELOPER_DIR /Developer-old    setenv DEVELOPER_FRAMEWORKS_DIR /Developer-old/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer-old/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer-old/Library    setenv DEVELOPER_SDK_DIR /Developer-old/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer-old/Tools    setenv DEVELOPER_USR_DIR /Developer-old/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH opencvExampleDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ofxColorQuantizer.dst    setenv DWARF_DSYM_FILE_NAME opencvExampleDebug.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH opencvExampleDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH opencvExampleDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME opencvExampleDebug    setenv EXECUTABLE_PATH opencvExampleDebug.app/Contents/MacOS/opencvExampleDebug    setenv FILE_LIST /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH opencvExampleDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/\"  \"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME opencvExampleDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING NONE    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS YES    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP cinema    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" ../../../addons/ofxOpenCv/libs ../../../addons/ofxOpenCv/libs/opencv ../../../addons/ofxOpenCv/libs/opencv/include ../../../addons/ofxOpenCv/libs/opencv/include/opencv ../../../addons/ofxOpenCv/libs/opencv/include/opencv2 ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video ../../../addons/ofxOpenCv/libs/opencv/lib ../../../addons/ofxOpenCv/libs/opencv/lib/osx ../../../addons/ofxOpenCv/src src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH opencvExampleDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH opencvExampleDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/ofxColorQuantizer.dst/Users/cinema/Applications    setenv INSTALL_GROUP cinema    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER cinema    setenv INSTALL_PATH /Users/cinema/Applications    setenv INSTALL_ROOT /tmp/ofxColorQuantizer.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH opencvExampleDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer-old/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal/i386/opencvExampleDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH opencvExampleDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Objects-normal    setenv OBJROOT /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread -mtune=native"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" ../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer-old/Headers /Developer-old/SDKs /Developer-old/Platforms"    setenv PBDEVELOPMENTPLIST_PATH opencvExampleDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/PkgInfo    setenv PKGINFO_PATH opencvExampleDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer-old/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer-old/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer-old/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer-old/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer-old/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer-old/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH opencvExampleDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH opencvExampleDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME opencvExampleDebug    setenv PRODUCT_SETTINGS_PATH /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ofxColorQuantizer    setenv PROJECT_DERIVED_FILE_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/DerivedSources    setenv PROJECT_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv PROJECT_FILE_PATH /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/ofxColorQuantizer.xcodeproj    setenv PROJECT_NAME ofxColorQuantizer    setenv PROJECT_TEMP_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build    setenv PUBLIC_HEADERS_FOLDER_PATH opencvExampleDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH opencvExampleDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer-old/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer-old/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH opencvExampleDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH opencvExampleDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv SRCROOT /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/SymbolRepositories    setenv SYMROOT /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer-old/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer-old/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer-old/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer-old    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer-old/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer-old/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer-old/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer-old/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer-old/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer-old/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer-old/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer-old/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer-old/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer-old/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME opencvExample    setenv TARGET_BUILD_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/    setenv TARGET_NAME opencvExample    setenv TARGET_TEMP_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build    setenv TEMP_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build    setenv TEMP_FILES_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build    setenv TEMP_FILE_DIR /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build    setenv TEMP_ROOT /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH opencvExampleDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER cinema    setenv USER_APPS_DIR /Users/cinema/Applications    setenv USER_LIBRARY_DIR /Users/cinema/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH opencvExampleDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER cinema    setenv VERSION_INFO_FILE opencvExampleDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:opencvExampleDebug  PROJECT:ofxColorQuantizer-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME opencvExampleDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer-old/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer-old/usr/bin/yacc    setenv _REAL_SDKROOT macosx    /bin/sh -c /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh1#
-
-CProcessInfoPlistFile /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/Info.plist openFrameworks-Info.plist
-s383798458.510642
-e383798458.564597
-r1
-xProcessInfoPlistFile
-x/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/Info.plist
-xopenFrameworks-Info.plist
-lSLF07#2@33"Process openFrameworks-Info.plist383798458#383798458#0(0"0(0#0#106"/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/openFrameworks-Info.plist27303588141531256#451"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app/Contents/Info.plist0#
-
-CProcessPCH++ /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h.gch /Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
-s383798458.564706
-e383798461.433460
-r1
-xProcessPCH++
-x/var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h.gch
-x/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
-lSLF07#2@105"Precompile /Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h383798458#383798461#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#94"/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h8606906624#3380"    cd /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/opencvExampleDebug.hmap -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin -F/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/../../../libs/glut/lib/osx -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../addons/ofxOpenCv/libs -I../../../addons/ofxOpenCv/libs/opencv -I../../../addons/ofxOpenCv/libs/opencv/include -I../../../addons/ofxOpenCv/libs/opencv/include/opencv -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2 -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/contrib -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/features2d -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/flann -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/gpu -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/highgui -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/legacy -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ml -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/ts -I../../../addons/ofxOpenCv/libs/opencv/include/opencv2/video -I../../../addons/ofxOpenCv/libs/opencv/lib -I../../../addons/ofxOpenCv/libs/opencv/lib/osx -I../../../addons/ofxOpenCv/src -Isrc -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources/i386 -I/Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/build/ofxColorQuantizer.build/Debug/opencvExample.build/DerivedSources -D__MACOSX_CORE__ -lpthread -mtune=native -c /Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/L1/L14TqhA6EdSgeObDk3HvZ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-fixfkclnhhjcdedwgogddvkfpdmk/Carbon.h.gch0#
-
-CTouch /Applications/openFrameworks/of_v0073_osx_release/apps/ofxColorQuantizer/example/bin//opencvExampleDebug.app
-r0
-
