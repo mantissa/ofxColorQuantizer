@@ -7,7 +7,7 @@
 /* -----------------------------------------------------------------------------
 \
 /	ofxColorQuantizer
-\	Quantizes colors found in an image to extract a color pallete 
+\	Quantizes colors found in an image to extract a color palette 
 /	Based on Cinder ocvColorQuantize demo -- https://github.com/cinder/Cinder-OpenCV/blob/master/samples/ocvColorQuantize/
 \	Ported by Jeremy Rotsztain -- http://www.mantissa.ca
 /

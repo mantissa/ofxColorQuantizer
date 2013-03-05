@@ -227,6 +227,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -269,7 +271,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>7</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -305,14 +307,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ofxColorQuantizer.h</string>
+								<string>ofxColorQuantizer.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,19 +320,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ofxColorQuantizer.h</string>
+										<string>ofxColorQuantizer.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F5249EBE16E5775E004E4F0E</string>
+										<string>F5249EC116E57B05004E4F0E</string>
 										<key>history</key>
 										<array>
 											<string>F5249D5116E05BA8004E4F0E</string>
 											<string>F5249E1116E561D2004E4F0E</string>
 											<string>F5249EB016E575DD004E4F0E</string>
 											<string>F5249EBB16E5775E004E4F0E</string>
-											<string>F5249EBC16E5775E004E4F0E</string>
-											<string>F5249EBD16E5775E004E4F0E</string>
+											<string>F5249EBF16E57B05004E4F0E</string>
+											<string>F5249EC016E57B05004E4F0E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
