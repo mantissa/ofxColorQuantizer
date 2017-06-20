@@ -18,9 +18,25 @@ void ofApp::update(){}
 
 void ofApp::draw(){
 	ofBackground(100,100,100);
-	ofSetColor(255);
+	
+    ofPushMatrix();
+    ofTranslate(50,50);
+    ofSetColor(255);
 	image.draw(0, 0, image.getWidth()/5, image.getHeight()/5);
-	colorQuantizer.draw(ofPoint(0, image.getHeight()/5));
+	
+    ofPushMatrix();
+    ofTranslate(image.getWidth()/5 + 20, image.getHeight()/5);
+    for(int i=0; i<colorQuantizer.getNumColors(); i++) {
+        ofSetColor(0,50);
+        ofDrawRectangle(i*60, 0, 50, -image.getHeight()/5);
+        ofSetColor(colorQuantizer.getColors()[i]);
+        ofDrawRectangle(i*60, 0, 50, ofMap(colorQuantizer.getColorWeights()[i], 0, 1, 0, -image.getHeight()/5));
+        ofSetColor(255);
+        ofDrawBitmapString(ofToString(int(colorQuantizer.getColorWeights()[i]*100)) + "%", i * 60,30);
+    }
+    ofPopMatrix();
+    ofPopMatrix();
+    
 }
 
 void ofApp::kMeansTest(){
