@@ -9,12 +9,27 @@ class ofApp : public ofBaseApp{
 		void update();
 		void draw();
 	
-		void kMeansTest();
-		
 		void keyPressed(int key);
 		void keyReleased(int key);
 	
-		ofImage image;
 		ofxColorQuantizer colorQuantizer;
+        void quantizeImage(string imageName, int numColors);
+    
+        ofImage image;
+        int index = 0;
+    
+        struct weightedColor {
+            ofColor color;
+            float weight;
+            float distance;
+        };
+    
+        vector< weightedColor > sortedColors;
+    
+        struct by_distance {
+            bool operator()(weightedColor const &a, weightedColor const &b) {
+                return a.distance > b.distance;
+            }
+        };
 };
 

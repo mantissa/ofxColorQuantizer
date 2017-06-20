@@ -1,17 +1,8 @@
 #include "ofApp.h"
+#include "ColorConverter.h"
 
 void ofApp::setup(){
-	image.load("carcio.jpg");
-	ofImage imageCopy;
-	imageCopy.load("carcio.jpg");
-	imageCopy.resize(imageCopy.getWidth()/2, imageCopy.getHeight()/2);
-	
-	// get our colors
-	colorQuantizer.setNumColors(6);
-	colorQuantizer.quantize(imageCopy.getPixels());
-	
-	// resize the window to match the image
-	ofSetWindowShape(image.getWidth(), image.getHeight());
+    quantizeImage(ofToString(index) + ".jpg", 10);
 }
 
 void ofApp::update(){}
@@ -25,44 +16,52 @@ void ofApp::draw(){
 	image.draw(0, 0, image.getWidth()/5, image.getHeight()/5);
 	
     ofPushMatrix();
-    ofTranslate(image.getWidth()/5 + 20, image.getHeight()/5);
+    ofTranslate(0, image.getHeight()/5);
+    ofDrawBitmapString("hit space to change image", 0, 30);
+    ofSetColor(255,100);
+    ofDrawBitmapString("colors are weighted based on their areas, their order is based on their chroma values", 0, 50);
+    
+    ofTranslate(image.getWidth()/5 + 20,0);
+    
     for(int i=0; i<colorQuantizer.getNumColors(); i++) {
         ofSetColor(0,50);
         ofDrawRectangle(i*60, 0, 50, -image.getHeight()/5);
-        ofSetColor(colorQuantizer.getColors()[i]);
-        ofDrawRectangle(i*60, 0, 50, ofMap(colorQuantizer.getColorWeights()[i], 0, 1, 0, -image.getHeight()/5));
+        ofSetColor(sortedColors[i].color);
+        ofDrawRectangle(i*60, 0, 50, ofMap(sortedColors[i].weight, 0, 1, 0, -image.getHeight()/5));
         ofSetColor(255);
-        ofDrawBitmapString(ofToString(int(colorQuantizer.getColorWeights()[i]*100)) + "%", i * 60,30);
+        ofDrawBitmapString(ofToString(int(sortedColors[i].weight * 100)) + "%", i * 60,30);
     }
-    ofPopMatrix();
-    ofPopMatrix();
     
+    ofPopMatrix();
+    ofPopMatrix();
 }
 
-void ofApp::kMeansTest(){
-	cv::Mat samples = (cv::Mat_<float>(8, 1) << 31 , 2 , 10 , 11 , 25 , 27, 2, 1);
-	cv::Mat labels;
-	
-	// double kmeans(const Mat& samples, int clusterCount, Mat& labels,
-	cv::TermCriteria termcrit;
-	int attempts, flags;
-	cv::Mat centers;
-	double compactness = cv::kmeans(samples, 3, labels, cv::TermCriteria(), 2, cv::KMEANS_PP_CENTERS, centers);
-	
-	cout<<"labels:"<<endl;
-	for(int i = 0; i < labels.rows; ++i)
-	{ 
-		cout<<labels.at<int>(0, i)<<endl;
-	}
-	
-	cout<<"\ncenters:"<<endl;
-	for(int i = 0; i < centers.rows; ++i)
-	{
-		cout<<centers.at<float>(0, i)<<endl;
-	}
-	
-	cout<<"\ncompactness: "<<compactness<<endl;
+void ofApp::quantizeImage(string imgName, int numColors) {
+    image.load(imgName);
+    ofImage imageCopy;
+    imageCopy.load(imgName);
+    imageCopy.resize(imageCopy.getWidth()/2, imageCopy.getHeight()/2);
+    
+    colorQuantizer.setNumColors(numColors);
+    colorQuantizer.quantize(imageCopy.getPixels());
+    
+    sortedColors.clear();;
+    sortedColors.resize(colorQuantizer.getNumColors());
+    for(int i = 0; i < colorQuantizer.getNumColors(); i++) {
+        ofFloatColor fc = ofFloatColor(colorQuantizer.getColors()[i].r/255.0, colorQuantizer.getColors()[i].g/255.0, colorQuantizer.getColors()[i].b/255.0);
+        ofVec3f labCol = ColorConverter::rgbToLab(fc);
+        
+        sortedColors[i].distance = ColorConverter::calcChroma(labCol);
+        sortedColors[i].color = colorQuantizer.getColors()[i];
+        sortedColors[i].weight = colorQuantizer.getColorWeights()[i];
+    }
+    
+    std::sort(sortedColors.begin(), sortedColors.end(), by_distance());
 }
 
-void ofApp::keyPressed(int key){}
+void ofApp::keyPressed(int key){
+    index++;
+    if(index>2) index = 0;
+    quantizeImage(ofToString(index) + ".jpg", 10);
+}
 void ofApp::keyReleased(int key){}
