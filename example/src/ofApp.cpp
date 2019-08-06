@@ -1,5 +1,64 @@
 #include "ofApp.h"
 
+//bool compareName( const colorNameMapping& s1, const colorNameMapping& s2 ) {
+//    return s1.name < s2.name;
+//}
+
+bool comparePos( const colorNameMapping& s1, const colorNameMapping& s2 ) {
+    return s1.pos < s2.pos;
+}
+
+bool compareBrightness( const colorNameMapping& s1, const colorNameMapping& s2 ) {
+    return s1.color.getBrightness() < s2.color.getBrightness();
+}
+
+bool compareHue( const colorNameMapping& s1, const colorNameMapping& s2 ) {
+    return s1.color.getHue() < s2.color.getHue();
+}
+
+bool compareSaturation( const colorNameMapping& s1, const colorNameMapping& s2 ) {
+    return s1.color.getSaturation() < s2.color.getSaturation();
+}
+
+//--------------------------------------------------------------
+void ofApp::map_setup(){
+    palette.clear();
+    int palSize = colorQuantizer.getNumColors();
+    palette.resize(palSize);
+    palette = colorQuantizer.getColors();
+
+    colorNameMap.clear();
+    colorNames.clear();
+
+    for (int i=0; i<palSize; i++)
+    {
+        colorNameMap[i] = palette[i];
+    }
+
+
+    // this map is useful if we want to address the colors by string.
+    // since we might want to sort this, we can put them in a vector also
+
+    for (unsigned int i = 0; i < colorNameMap.size(); i++){
+
+//        map<string, ofColor>::iterator mapEntry = colorNameMap.begin();
+        map<int, ofColor>::iterator mapEntry = colorNameMap.begin();
+        std::advance( mapEntry, i );
+
+        colorNameMapping mapping;
+//        mapping.name = mapEntry->first;
+        mapping.pos = mapEntry->first;
+        mapping.color = mapEntry->second;
+        colorNames.push_back(mapping);
+
+    }
+
+    // sort
+    sortedType = 4;
+    ofSort(colorNames, compareSaturation);
+}
+
+
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofSetFrameRate(30);
@@ -18,6 +77,10 @@ void ofApp::setup(){
 	
 	// resize the window to match the image
 //    ofSetWindowShape(image.getWidth(), image.getHeight());
+
+    map_setup();
+//    sortedType = 1; // by pos //name, at the start
+
 }
 
 
@@ -38,6 +101,8 @@ void ofApp::getImagePalette(string path, int num){
 
     // resize the window to match the image
 //    ofSetWindowShape(image.getWidth(), image.getHeight());
+
+    map_setup();
 }
 
 
@@ -61,6 +126,8 @@ void ofApp::getImageFromURLPalette(string url, int num){
 
     // resize the window to match the image
     //    ofSetWindowShape(image.getWidth(), image.getHeight());
+
+    map_setup();
 }
 
 
@@ -82,6 +149,42 @@ void ofApp::draw(){
 //    colorQuantizer.draw(ofPoint(0, image.getHeight()-20));
     colorQuantizer.draw(ofPoint(20, image.getHeight()+20));
 
+
+
+    draw_PaleteMINI();
+
+}
+
+
+
+//--------------------------------------------------------------
+void ofApp::draw_PaleteMINI()
+{
+    int boxW = 40;
+    int boxPad = 1;
+    int boxSize = boxW+boxPad;
+    glm::vec2 palettePos = glm::vec2(ofGetWidth() - palette.size()*boxSize, 2*boxPad);
+    ofRectangle r;
+
+    ofPushMatrix();
+    ofPushStyle();
+    ofTranslate(palettePos);
+
+    for (int col=0; col<palette.size(); col++)
+    {
+        r = ofRectangle(0, 0, boxW, boxW);
+        ofFill();
+
+        ofSetColor(colorNames[col].color);
+//        ofSetColor(palette[col]);
+//        ofSetColor(colorNameMap[col]);
+
+        ofDrawRectangle(r);
+        ofTranslate ( boxSize, 0);
+    }
+
+    ofPopStyle();
+    ofPopMatrix();
 }
 
 //--------------------------------------------------------------
@@ -114,15 +217,41 @@ void ofApp::kMeansTest(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
 
-    // files
-    if (key=='0')
-        getImagePalette("0.jpg", 12);
-    if (key=='1')
-        getImagePalette("1.jpg", 12);
-    if (key=='2')
-        getImagePalette("2.jpg", 12);
-    if (key=='3')
-        getImagePalette("3.jpg", 12);
+    if (key == '1'){
+        if (sortedType != 1){
+            sortedType = 1;
+            ofSort(colorNames, comparePos);
+//            ofSort(colorNames, compareName);
+        }
+    }
+    if (key == '2'){
+        if (sortedType != 2){
+            sortedType = 2;
+            ofSort(colorNames, compareHue);
+        }
+    }
+    else if (key == '3'){
+        if (sortedType != 3){
+            sortedType = 3;
+            ofSort(colorNames, compareBrightness);
+        }
+    }
+    else if (key == '4'){
+        if (sortedType != 4){
+            sortedType = 4;
+            ofSort(colorNames, compareSaturation);
+        }
+    }
+
+//    // files
+//    if (key=='0')
+//        getImagePalette("0.jpg", 12);
+//    if (key=='1')
+//        getImagePalette("1.jpg", 12);
+//    if (key=='2')
+//        getImagePalette("2.jpg", 12);
+//    if (key=='3')
+//        getImagePalette("3.jpg", 12);
 
     // urls palettes
     if (key=='q')
