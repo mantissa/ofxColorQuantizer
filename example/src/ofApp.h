@@ -18,7 +18,8 @@ class ofApp : public ofBaseApp{
 		void keyPressed(int key);
 		void keyReleased(int key);
 
-    void getImagePalette(string path);
+    void getImagePalette(string path, int num);
+    void getImageFromURLPalette(string path, int num);
 
 		ofImage image;
 	
