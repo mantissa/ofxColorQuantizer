@@ -2,6 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    ofSetFrameRate(30);
 
 	// load our image
 	image.loadImage("photo.jpg");
@@ -16,7 +17,7 @@ void ofApp::setup(){
 	colorQuantizer.quantize(imageCopy.getPixelsRef());
 	
 	// resize the window to match the image
-	ofSetWindowShape(image.getWidth(), image.getHeight());
+//    ofSetWindowShape(image.getWidth(), image.getHeight());
 }
 
 
@@ -45,6 +46,7 @@ void ofApp::getImageFromURLPalette(string url, int num){
 
     // load our image
     image.loadImage(url);
+    
     if(image.getWidth()>1000 || image.getHeight()>600 )
     image.resize(image.getWidth()/3, image.getHeight()/3);
 
@@ -151,6 +153,26 @@ void ofApp::keyPressed(int key){
         getImageFromURLPalette("https://www.eldiario.es/fotos/Escala-monocromatica-Roma_EDIIMA20190731_0438_19.jpg", 12);
     if (key=='g')
         getImageFromURLPalette("https://www.eldiario.es/fotos/Paleta-colores-John-Wick_EDIIMA20190731_0490_19.jpg", 12);
+    if (key=='h')
+        getImageFromURLPalette("https://www.eldiario.es/fotos/Paleta-colores-John-Wick_EDIIMA20190731_0490_19.jpg", 12);
+
+    //field scapes
+    if (key=='z')
+        getImageFromURLPalette("https://s3.amazonaws.com/images.gearjunkie.com/uploads/2018/05/matterhorn-3x2.jpg", 12);
+    if (key=='x')
+        getImageFromURLPalette("http://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg", 12);
+    if (key=='c')
+        getImageFromURLPalette("https://store-images.s-microsoft.com/image/apps.33776.13570837168441901.d8820ad6-c4ef-45a9-accb-c6dd763aee48.560134ce-5fa0-4486-95cd-b0ba8d4921ff?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg", 12);
+    if (key=='v')
+        getImageFromURLPalette("https://www.mountainphotography.com/images/xl/20120928-Cimarron-Sunset-Panorama.jpg", 12);
+    if (key=='b')
+        getImageFromURLPalette("https://www.mountainphotography.com/images/640/20130608-Alpenglow-on-Mt.-Sneffels.jpg", 12);
+    if (key=='n')
+        getImageFromURLPalette("https://image.shutterstock.com/image-vector/large-number-mountains-vast-landscapes-260nw-1389573218.jpg", 12);
+    if (key=='m')
+        getImageFromURLPalette("https://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-eiger_3374107a.jpg", 12);
+
+
 
 }
 
