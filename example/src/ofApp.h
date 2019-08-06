@@ -4,6 +4,7 @@
 
 #include "ofxOpenCv.h"
 #include "ofxColorQuantizer.h"
+#include "ofxGui.h"
 
 typedef struct {
 //    string name;
@@ -35,11 +36,15 @@ class ofApp : public ofBaseApp{
 //    map < string, ofColor > colorNameMap;
     map < int, ofColor > colorNameMap;
     vector < colorNameMapping > colorNames;
-
-    vector<ofColor> palette;
-
     int sortedType;
 
+    vector<ofColor> palette;
     void draw_PaleteMINI();
+
+    ofxPanel gui;
+    ofxIntSlider numColors;
+    ofxLabel sortLabel;
+    string labelStr;
+
 };
 

@@ -1,2 +1,3 @@
 ofxColorQuantizer
+ofxGui
 ofxOpenCv
