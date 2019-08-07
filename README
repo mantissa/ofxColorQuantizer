@@ -15,10 +15,10 @@ There's some image loading from url too.
 ![alt text](https://raw.githubusercontent.com/moebiussurfing/ofxColorQuantizer/master/screenshots/screenshot3.png)
 
 TODO:
--drag and drop image files to process
--threaded image load
--use some http API to searching and image browsing
--speed up process or downsize image to process 
+- drag and drop image files to process
+- threaded image load
+- use some http API to searching and image browsing
+- speed up process or downsize image to process 
 
 /-
 
