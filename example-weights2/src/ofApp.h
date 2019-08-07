@@ -9,8 +9,11 @@ typedef struct {
     ofColor color;
 } colorMapping;
 
-class ofApp : public ofBaseApp{
+class ofApp : public ofBaseApp
+{
+
 public:
+
     void setup();
     void update();
     void draw();
@@ -23,9 +26,8 @@ public:
     
     ofImage image;
     ofImage imageCopy;
+    string imageName;
 
-    int index = 0;
-    
     struct weightedColor {
         ofColor color;
         float weight;
@@ -40,16 +42,16 @@ public:
         }
     };
 
-    void build();
+    void build();//split from quantizer to avoid reload image
 
     //-
 
     void buildFromImageFile(string path, int num);
-    void buildFromImageUrl(string rul, int num);
+    void buildFromImageUrl(string url, int num);
 
     void map_setup();
     map < int, ofColor > colorMap;
-    vector < colorMapping > colorNames;
+    vector < colorMapping > colorMapSortable;
 
     ofxPanel gui;
     ofParameter<int> sortedType;
@@ -62,15 +64,12 @@ public:
     vector<ofColor> palette;
 
     void draw_Palette_Preview();
-
     int boxSize;
     int boxPad;
     int boxW;
     int wPal;
 
     void kMeansTest();
-
-    string imageName;
 
 };
 

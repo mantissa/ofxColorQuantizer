@@ -33,7 +33,7 @@ void ofApp::setup()
     parameters.add(labelStr.set(" ", labelStr));
     parameters.add(bReBuild.set("re build", false));
     gui.add(parameters);
-    gui.setPosition(400, 30);
+    gui.setPosition(450, 50);
     ofAddListener(parameters.parameterChangedE(), this, &ofApp::Changed_parameters);
 
     //-
@@ -161,19 +161,19 @@ void ofApp::Changed_parameters(ofAbstractParameter &e) {
     {
         switch (sortedType) {
             case 1:
-                ofSort(colorNames, comparePos);
+                ofSort(colorMapSortable, comparePos);
                 labelStr = "Original";
                 break;
             case 2:
-                ofSort(colorNames, compareHue);
+                ofSort(colorMapSortable, compareHue);
                 labelStr = "Hue";
                 break;
             case 3:
-                ofSort(colorNames, compareBrightness);
+                ofSort(colorMapSortable, compareBrightness);
                 labelStr = "Brightness";
                 break;
             case 4:
-                ofSort(colorNames, compareSaturation);
+                ofSort(colorMapSortable, compareSaturation);
                 labelStr = "Saturation";
                 break;
             default:
@@ -366,15 +366,13 @@ void ofApp::map_setup()
     palette.resize(palSize);
 
     //palette = colorQuantizer.getColors();
-
-
     for(int i=0; i<sortedColors.size(); i++)
     {
         palette[i] = sortedColors[i].color;
     }
 
     colorMap.clear();
-    colorNames.clear();
+    colorMapSortable.clear();
 
     for (int i=0; i<palSize; i++)
     {
@@ -389,24 +387,24 @@ void ofApp::map_setup()
         colorMapping mapping;
         mapping.pos = mapEntry->first;
         mapping.color = mapEntry->second;
-        colorNames.push_back(mapping);
+        colorMapSortable.push_back(mapping);
     }
 
     switch (sortedType) {
         case 1:
-            ofSort(colorNames, comparePos);
+            ofSort(colorMapSortable, comparePos);
             labelStr = "Original";
             break;
         case 2:
-            ofSort(colorNames, compareHue);
+            ofSort(colorMapSortable, compareHue);
             labelStr = "Hue";
             break;
         case 3:
-            ofSort(colorNames, compareBrightness);
+            ofSort(colorMapSortable, compareBrightness);
             labelStr = "Brightness";
             break;
         case 4:
-            ofSort(colorNames, compareSaturation);
+            ofSort(colorMapSortable, compareSaturation);
             labelStr = "Saturation";
             break;
         default:
@@ -434,19 +432,19 @@ void ofApp::buildFromImageUrl(string url, int num){
 //--------------------------------------------------------------
 void ofApp::draw_Palette_Preview()
 {
-    ofRectangle r;
     ofPushMatrix();
     ofPushStyle();
 
+    ofRectangle r;
     string str = "sorted palette preview ("+ofToString(labelStr)+")";
-    ofDrawBitmapStringHighlight(str, 5, -20, ofColor::black, ofColor::white);
+    ofDrawBitmapStringHighlight(str, 5, -10, ofColor::black, ofColor::white);
 
     for (int col=0; col<palette.size(); col++)
     {
         r = ofRectangle(0, 0, boxSize, boxSize);
         ofFill();
 
-        ofSetColor(colorNames[col].color);
+        ofSetColor(colorMapSortable[col].color);
         //ofSetColor(palette[col]);
 
         ofDrawRectangle(r);
