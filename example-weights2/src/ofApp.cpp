@@ -53,63 +53,51 @@ void ofApp::draw()
 {
     ofBackground(100,100,100);
 
+    int x = 50;//x pad for left/right window
+    boxPad = 2;
+
     //-
 
+    // debug text
     ofDrawBitmapStringHighlight("loaded image path/url: '"+imageName+"'", 10, 20, ofColor::black, ofColor::white);
     ofDrawBitmapStringHighlight("select image: [01234567][qwe][asd][zxc]", 10, 40, ofColor::black, ofColor::white);
     ofDrawBitmapStringHighlight("sorting: "+labelStr.get(), 10, 70, ofColor::black, ofColor::white);
     ofDrawBitmapStringHighlight("change sorting: [backspace]", 10, 90, ofColor::black, ofColor::white);
 
     ofPushMatrix();
-    int x = 50;
     ofTranslate(x, 200);
     ofSetColor(255);
 
-    boxPad = 2;
+    // draw original image but resized to ImgW pixels width, same aspect ratio
+    float imgRatio = image.getHeight()/image.getWidth();
+    int ImgW = 200;
+    int imgH = imgRatio*ImgW;
 
-    if (image.getWidth()>500 || image.getHeight()>500)
-    {
-        image.draw(0, 0, image.getWidth()/5, image.getHeight()/5);
-
-        wPal = ofGetWidth() - (x + image.getWidth()/5 + x);
-        boxW = wPal/colorQuantizer.getNumColors();
-        boxSize = boxW-boxPad;
-    }
-    else
-    {
-        image.draw(0, 0, image.getWidth(), image.getHeight());
-
-        wPal = ofGetWidth() - (x + image.getWidth() + x);
-        boxW = wPal/colorQuantizer.getNumColors();
-        boxSize = boxW-boxPad;
-    }
+    image.draw(0, 0, ImgW, imgH);
+    wPal = ofGetWidth() - (x + ImgW + x);
+    boxW = wPal/colorQuantizer.getNumColors();
+    boxSize = boxW-boxPad;
 
     ofPushMatrix();
-
-    if (image.getWidth()>500 || image.getHeight()>500)
-        ofTranslate(0, image.getHeight()/5);
-    else
-        ofTranslate(0, image.getHeight());
+    ofTranslate(0, imgH);
 
     ofSetColor(255, 100);
     ofDrawBitmapString("(Original sorting has colors weighted based on their areas, their order is based on their chroma values)", 0, 50);
 
-    if (image.getWidth()>500 || image.getHeight()>500)
-        ofTranslate(image.getWidth()/5 + 20,0);
-    else
-        ofTranslate(image.getWidth() + 20, 0);
+    ofTranslate(ImgW+20, 0);
 
-
+    // all colors % bars
     for(int i=0; i<colorQuantizer.getNumColors(); i++)
     {
         ofSetColor(0,50);
-        ofDrawRectangle(i*(boxSize+boxPad), 0, boxSize, -image.getHeight()/5);
+        ofDrawRectangle(i*(boxSize+boxPad), 0, boxSize, -imgH);
         ofSetColor(sortedColors[i].color);
-        ofDrawRectangle(i*(boxSize+boxPad), 0, boxSize, ofMap(sortedColors[i].weight, 0, 1, 0, -image.getHeight()/5));
+        ofDrawRectangle(i*(boxSize+boxPad), 0, boxSize, ofMap(sortedColors[i].weight, 0, 1, 0, -imgH));
         ofSetColor(255);
         ofDrawBitmapString(ofToString(int(sortedColors[i].weight * 100)) + "%", i * (boxSize+boxPad),30);
     }
 
+    // palette preview
     ofTranslate(0, 100);
     draw_Palette_Preview();
 
@@ -154,7 +142,7 @@ void ofApp::quantizeImage(string imgName, int _numColors) {
 
     imageCopy.clear();
     imageCopy = image;//speed up
-//    imageCopy.load(imgName);
+                      //    imageCopy.load(imgName);
 
     // resize to speed up
     imageCopy.resize(imageCopy.getWidth()/4, imageCopy.getHeight()/4);
