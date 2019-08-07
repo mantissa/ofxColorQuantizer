@@ -313,7 +313,7 @@ void ofApp::keyPressed(int key){
 
     //-
 
-    // sort
+    // sort types
 
     if (key==OF_KEY_BACKSPACE){
         sortedType++;
