@@ -7,6 +7,8 @@ This current fork has another example that can sort by Hue, Saturation, Brightne
 It has a gui too to change the number of colors, the sorting type, etc on the fly.
 There's some image loading from url too.
 
+![alt text](https://raw.githubusercontent.com/moebiussurfing/ofxColorQuantizer/master/screenshots/screenshot1.png)
+
 
 
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
