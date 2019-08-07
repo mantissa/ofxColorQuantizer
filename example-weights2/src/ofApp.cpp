@@ -74,6 +74,7 @@ void ofApp::draw()
     int imgH = imgRatio*ImgW;
 
     image.draw(0, 0, ImgW, imgH);
+
     wPal = ofGetWidth() - (x + ImgW + x);
     boxW = wPal/colorQuantizer.getNumColors();
     boxSize = boxW-boxPad;
@@ -142,7 +143,7 @@ void ofApp::quantizeImage(string imgName, int _numColors) {
 
     imageCopy.clear();
     imageCopy = image;//speed up
-                      //    imageCopy.load(imgName);
+    //imageCopy.load(imgName);
 
     // resize to speed up
     imageCopy.resize(imageCopy.getWidth()/4, imageCopy.getHeight()/4);
