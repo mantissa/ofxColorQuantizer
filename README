@@ -3,7 +3,7 @@ from the stc user fork: https://github.com/stc/ofxColorQuantizer/
 This example can sort colors weighted based on their areas, their order is based on their chroma values.
 
 added example-weights2
-This current fork has another example that can sort by Hue, Saturation, Brightness or the above one.
+This current fork has another example that can sort by Hue, Saturation, Brightness or the above one method.
 It has a gui too to change the number of colors, the sorting type, rebuild when changing number of colors... on the fly.
 There's some image loading from url too.
 
