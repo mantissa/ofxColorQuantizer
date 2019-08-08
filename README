@@ -6,9 +6,9 @@ This example can get colors weighted based on their areas, their order is based 
 /-
 
 * added example-weights2 by moebiussurfing
-This current fork has another example that can sort by Hue, Saturation, Brightness or the above method.
+This current fork has another example that can sort the palette colors by Hue, Saturation, Brightness or the above method.
 It has a gui panel too to change the number of colors, the sorting type, rebuild when changing number of colors... on the fly.
-There's some image loading from url too.
+There's some images loading from url too.
 
 ![alt text](https://raw.githubusercontent.com/moebiussurfing/ofxColorQuantizer/master/screenshots/screenshot1.png)
 ![alt text](https://raw.githubusercontent.com/moebiussurfing/ofxColorQuantizer/master/screenshots/screenshot2.png)
@@ -17,8 +17,8 @@ There's some image loading from url too.
 TODO:
 - drag and drop image files to process
 - threaded image load
-- use some http API to searching and image browsing
 - speed up process or downsize image to process 
+- use some http API to searching and image browsing
 
 /-
 
