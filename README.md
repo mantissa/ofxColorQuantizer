@@ -1,4 +1,5 @@
 # [FORK]
+forked from mantissa/ofxColorQuantizer
 
 ## added example-weights and ColorConverter.h by stc
 copied from the stc user fork: https://github.com/stc/ofxColorQuantizer/
