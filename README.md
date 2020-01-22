@@ -1,4 +1,4 @@
-### added example-weights and ColorConverter.h by stc
+## added example-weights and ColorConverter.h by stc
 copied from the stc user fork: https://github.com/stc/ofxColorQuantizer/
 This example can get colors weighted based on their areas, their order is based on their chroma values.
 
