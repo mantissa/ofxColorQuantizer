@@ -31,6 +31,20 @@ vector<ofColor> & ofxColorQuantizer::quantize(ofPixels inputImage){
 	cv::Mat labels, clusters;
 	cv::kmeans( colorSamples, colorCount, labels, cv::TermCriteria(), 2, cv::KMEANS_RANDOM_CENTERS, clusters ); //cv::TermCriteria::COUNT, 8, 0 
 	
+    // calculate histogram
+    histogram.clear();
+    histogram.resize( colorCount );
+    
+    for( int i = 0; i < labels.rows; i++ ) {
+        ++histogram[labels.at<int>(i, 0)];
+    }
+    float sum = 0;
+    for(int i=0; i<histogram.size(); i++) {
+        histogram[i] = histogram[i]/colorSamples.rows;
+        sum+=histogram[i];
+    }
+
+    
 	// clear our list of colors
 	colors.clear();
 	
@@ -73,7 +87,7 @@ void ofxColorQuantizer::draw(ofPoint pos){
 	while( cIter != colors.end() ){
 	
 		ofSetColor(*cIter);
-		ofRect(0, 0, swatchSize, swatchSize);
+		ofDrawRectangle(0, 0, swatchSize, swatchSize);
 		ofTranslate(swatchSize, 0, 0);
 		cIter++;
 	}
@@ -100,3 +114,8 @@ int ofxColorQuantizer::getNumColors(){
 
 	return numColors;
 }
+
+vector< float > ofxColorQuantizer::getColorWeights() {
+    return histogram;
+}
+

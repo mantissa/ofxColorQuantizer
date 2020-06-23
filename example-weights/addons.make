@@ -1,0 +1,2 @@
+ofxColorQuantizer
+ofxOpenCv
