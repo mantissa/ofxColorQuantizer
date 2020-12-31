@@ -246,7 +246,7 @@ void ofApp::keyPressed(int key){
 
     if (key=='q')
     {
-        imageName = "https://mk0learntocodew6bl5f.kinstacdn.com/wp-content/uploads/2016/01/material-palette.png";
+        imageName = "https://media.gettyimages.com/photos/argentina-buenos-aires-dawn-at-center-with-rush-hour-picture-id667138246?k=6&m=667138246&s=612x612&w=0&h=PTpexeaqMB-gYmImToxeV2cMGrRAPImeLkws6fFKfh0=";
         buildFromImageFile(imageName, numColors);
     }
 

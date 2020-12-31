@@ -120,3 +120,9 @@ Desktop.ini
 *.sql
 *.sqlite
 
+example-weights2/.vs/example-weights2/v15/Solution.VC.db
+example-weights2/example-weights2.sln
+example-weights2/example-weights2.vcxproj
+example-weights2/example-weights2.vcxproj.filters
+example-weights2/example-weights2.vcxproj.user
+example-weights2/icon.rc
