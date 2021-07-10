@@ -29,9 +29,11 @@ public:
 	int getNumColors();
 	
 	vector<ofColor> & getColors();
+    vector<float> getColorWeights();
 	
 protected:	
 	
 	vector<ofColor>colors;
 	unsigned int numColors;
+    vector<float>histogram;
 };
