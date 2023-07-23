@@ -1,8 +1,12 @@
 #pragma once
 #include "ofMain.h"
+
 #include "ofxOpenCv.h"
 #include "ofxColorQuantizer.h"
 #include "ofxGui.h"
+
+#include <thread>
+#include <mutex>
 
 typedef struct {
     int pos;
@@ -12,6 +16,12 @@ typedef struct {
 class ofApp : public ofBaseApp
 {
 public:
+    // Mutex for thread safety
+    std::mutex quantizerMutex;
+
+    // Function for quantization to run in a separate thread
+    void quantizeInThread();
+
     void setup();
     void update();
     void draw();

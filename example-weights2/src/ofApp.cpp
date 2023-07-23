@@ -18,6 +18,28 @@ bool compareSaturation(const colorMapping& s1, const colorMapping& s2) {
 	return s1.color.getSaturation() < s2.color.getSaturation();
 }
 
+void ofApp::quantizeInThread() {
+	bWait = 1;
+	v = 1;
+	auto t = ofGetElapsedTimeMillis();
+
+	// Lock the mutex before accessing shared resources
+	quantizerMutex.lock();
+
+
+	// Perform the quantization process here...
+	// Example: Call the quantizer function from your addon.
+	// Replace "quantizerFunction()" with the actual function name from your addon.
+	// quantizerFunction();
+	build();
+
+
+	// Unlock the mutex after accessing shared resources
+	quantizerMutex.unlock();
+	
+	bWait = 0;
+	timeForLastProcess = ofGetElapsedTimeMillis() - t;
+}
 
 //--------------------------------------------------------------
 void ofApp::setup()
@@ -42,11 +64,20 @@ void ofApp::setup()
 	buildFromImageFile(imageName, numColors);
 }
 
-
 //--------------------------------------------------------------
-void ofApp::update() {}
+void ofApp::update() {
+	// Lock the mutex before starting the thread to avoid conflicts.
+	quantizerMutex.lock();
 
+	// Start the quantization process in a separate thread.
+	std::thread quantizationThread(&ofApp::quantizeInThread, this);
 
+	// Unlock the mutex after starting the thread.
+	quantizerMutex.unlock();
+
+	// Detach the thread, so it will run independently in the background.
+	quantizationThread.detach();
+}
 
 //--------------------------------------------------------------
 void ofApp::draw()
@@ -150,9 +181,6 @@ void ofApp::drawBg()
 
 //--------------------------------------------------------------
 void ofApp::build() {
-	bWait = true;
-	v = 1;
-	auto t = ofGetElapsedTimeMillis();
 
 	colorQuantizer.setNumColors(numColors);
 	colorQuantizer.quantize(imageCopy.getPixels());
@@ -174,8 +202,6 @@ void ofApp::build() {
 	//--
 
 	map_setup();
-
-	timeForLastProcess = ofGetElapsedTimeMillis() - t;
 }
 
 //--------------------------------------------------------------
@@ -191,9 +217,8 @@ void ofApp::quantizeImage(string imgName, int _numColors) {
 	// resize to speed up
 	imageCopy.resize(imageCopy.getWidth() / 4, imageCopy.getHeight() / 4);
 
-	build();
+	quantizeInThread();
 }
-
 
 //--------------------------------------------------------------
 void ofApp::Changed_parameters(ofAbstractParameter& e) {
@@ -229,11 +254,10 @@ void ofApp::Changed_parameters(ofAbstractParameter& e) {
 		if (bReBuild)
 		{
 			bReBuild = false;
-			build();
+			quantizeInThread();
 		}
 	}
 }
-
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key) {
@@ -393,13 +417,10 @@ void ofApp::keyPressed(int key) {
 	if (key == 'k') {
 		kMeansTest();
 	}
-
 }
-
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key) {}
-
 
 
 //--------------------------------------------------------------
@@ -461,7 +482,6 @@ void ofApp::map_setup()
 void ofApp::buildFromImageFile(string path, int num) {
 	//TODO: improve with threading load..
 	quantizeImage(path, num);
-	build();
 }
 
 
@@ -469,7 +489,6 @@ void ofApp::buildFromImageFile(string path, int num) {
 void ofApp::buildFromImageUrl(string url, int num) {
 	//TODO: improve with threading load and some HTTP image browsing api..
 	quantizeImage(url, num);
-	build();
 }
 
 
